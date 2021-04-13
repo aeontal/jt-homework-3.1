@@ -3,10 +3,10 @@ public class Main {
         double amount = 1_075;
         double mult = 20;
         double reminder = 0;
-        double bonus_miles = reminder + amount / mult;
-        double total_bonus = Math.floor(bonus_miles);
-        reminder = bonus_miles - total_bonus;
-        System.out.println(total_bonus);
+        double bonusMiles = reminder + amount / mult;
+        double totalBonus = Math.floor(bonusMiles);
+        reminder = bonusMiles - totalBonus;
+        System.out.println(totalBonus);
     }
 
 }
